@@ -11,12 +11,12 @@
         }
         .a-nav
         {
-            background-color: #f0f0f0;
-            border-color: #463265;
+            background-color: #22D6F9;            
             box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
             text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
             padding:5px 0;
-            border-bottom:3px red solid;
+            border-bottom:2px #18C9EC solid;
+            color:#FFFFFF;
         }
         .b-nav
         {
@@ -30,11 +30,11 @@
         }
         .header-left a
         {
-            color:#6a6a6a;
+            color:#FFFFFF;
         }
         .header-left span
         {
-            border-right:1px #777777 solid;
+            border-right:1px #FFFFFF solid;
             padding:0 5px;
         }
         .shop_icon
@@ -86,7 +86,7 @@
         }
         #content
         {
-            background-color:#91C536;            
+            background-color:#689C0D;            
         }
         #content a
         {
@@ -95,11 +95,16 @@
         }
         .bs-header .nav > li > a:hover
         {
-            background-color:Red;
+            background-color:#88BC2D;
+            border-bottom:2px Black solid;
         }
         .nav li .active
         {
             
+        }
+        .page-header h3
+        {
+            font-weight:bold;
         }
         .s_title_1 span
         {

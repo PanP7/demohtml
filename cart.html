@@ -40,7 +40,7 @@
         function CreateCartList() {
             $("#cartlist").empty();
             var cartlistdata = getCookie("cartlist");
-            if (cartlistdata.split(";").length >= 0) {
+            if (cartlistdata!= "") {
                 $.each(cartlistdata.split(","), function (index, value) {
                     $.each(getAlldata(), function (i, v) {
                         if (v.Id == value.split(":")[0]) {

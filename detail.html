@@ -286,7 +286,7 @@
                 } else {
                     setCookie("cartAmount", parseInt($("#proprice").html()))
                 }
-                $("#cartAmount").html(getCookie("cartAmount"));
+                $("#cartAmount").html("￥"+getCookie("cartAmount"));
 
                 //购物车产品以及数量,统计、操作 
                 if (getCookie("cartlist")) {
