@@ -1,0 +1,223 @@
+body{background-repeat:no-repeat}#page{width:100%; margin:0px auto;}.onhover{display:none; visibiity:hidden;} .ajax_block_product .right_block{display:none; visibiity:hidden; }h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a,h5,h5 a,li.selected a {color:#1b1b1b}
+			#banerblock h1{color:#ffffff}
+			#banerblock .desc, #banerblock .product_desc{color:#ffffff}
+
+			
+.listtype #listbtn.active,.listtype #gridbtn.active,
+#search_block_top .submit,
+#back-top a:hover,			
+div.tags_block p a:hover,
+.flex-control-paging li a.flex-active ,
+#shopping_cart a,
+.caroucontrol a.next:hover,
+.caroucontrol a.prev:hover,
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span
+{background-color:#e62800}
+
+
+#new_comment_form button,
+.exclusive_large,
+.ajax_add_to_cart_button,
+#center_column .exclusive,
+.button_large,
+.button_small,
+#add_to_cart,
+.camera_caption .button,
+.button{
+  color: #ffffff;
+  text-shadow: 0 -1px 0 grab(0, 0, 0, 0.25);
+  background-color: #e62800;
+  background-image: -moz-linear-gradient(top, #fd421b, #e62800);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fd421b), to(#e62800));
+  background-image: -webkit-linear-gradient(top, #fd421b, #e62800);
+  background-image: -o-linear-gradient(top, #fd421b, #e62800);
+  background-image: linear-gradient(to bottom, #fd421b, #e62800);
+  background-repeat: repeat-x;
+border:none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#layered_form  .color-option.on ,
+#new_comment_form button,
+#thumbs_list li .active img,
+.inline_list li,
+.carou li .productbox ,
+.lgray > li:hover > a,
+#topstrip,
+.caroucontrol a.next:hover,
+.caroucontrol a.prev:hover,
+div.tags_block p a:hover
+ {border-color:#e62800;}
+ 
+.fancybox-skin ,#header #cart_block,#loginform {border-top:3px solid #e62800;}
+.ac_results {border-top:5px solid #e62800;}
+
+#product_list li.gridview .productbox,
+#product_list li.listview:hover {border-bottom:3px solid #e62800;}
+
+.ac_over .prname,
+.menu a:hover,
+h3 a:hover,
+h2 a:hover,
+h4 a:hover,
+ul#manufacturers_list li h3 a:hover,
+#product_list h5 a:hover,
+.mean-container .mean-nav ul li a:hover,
+#layered_block_left .nomargin a:hover,
+#sitemap_content li a,
+.ttt,
+.addresses ul.address .address_update a:hover,
+#module-blockwishlist-mywishlist .wishlistLinkTop .display_list li a:hover,
+.colorh:hover,
+.footer_links a:hover,
+.payment_module a:hover,
+#order-opc .lost_password:hover,
+#bt_compare:hover, #header_links a:hover,
+.lost_password a:hover,
+#product_list li.listview .add_compare:hover,
+#product_list li.listview .add_wishlist:hover,
+#product_list li.gridview.secondtype .add_compare:hover,
+#product_list li.gridview.secondtype .add_wishlist:hover,
+.carou li.secondtype .add_compare:hover,
+.carou li.secondtype .add_wishlist:hover,
+.additional a:hover,
+.our_price_display,
+#product_comments_block_extra a:hover,
+#footer a:hover,
+.blockmanufacturer a:hover,
+.pagination ul > .current > a, .pagination ul > .current > span,
+.inline_list li:hover .cat_name,
+.span3 .products_block a:hover,
+#categories_block_left  li a:hover,
+#categories_block_left  li a.selected ,
+.lgray ol a:hover,
+#header_user_info a,
+.price,
+.lgray ul a:hover,
+.carou h5 a:hover
+ {color:#e62800;}
+
+ 
+ 
+ #new_comment_form button:hover,
+ .exclusive_large:hover,
+  #add_to_cart:hover,
+ #center_column .exclusive:hover,
+.button_large:hover,
+.button_small:hover,
+.camera_caption .button:hover,
+.button:hover,
+ .ajax_add_to_cart_button:hover,
+ #product_list li.gridview.firsttype .add_wishlist:hover ,
+ #product_list li.gridview.firsttype .add_compare:hover,
+.carou li.firsttype .add_wishlist:hover ,
+.carou li.firsttype .add_compare:hover
+ 
+{
+	background-image: linear-gradient(bottom, rgb(35,35,35) 42%, rgb(42,42,42) 71%, rgb(53,53,53) 83%);
+	background-image: -o-linear-gradient(bottom, rgb(35,35,35) 42%, rgb(42,42,42) 71%, rgb(53,53,53) 83%);
+	background-image: -moz-linear-gradient(bottom, rgb(35,35,35) 42%, rgb(42,42,42) 71%, rgb(53,53,53) 83%);
+	background-image: -webkit-linear-gradient(bottom, rgb(35,35,35) 42%, rgb(42,42,42) 71%, rgb(53,53,53) 83%);
+	background-image: -ms-linear-gradient(bottom, rgb(35,35,35) 42%, rgb(42,42,42) 71%, rgb(53,53,53) 83%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.42, rgb(35,35,35)),
+		color-stop(0.71, rgb(42,42,42)),
+		color-stop(0.83, rgb(53,53,53))
+	);
+	background-color:#1b1b1b;
+	color:#fff;
+	text-decoration:none;
+	 filter:none;
+}
+ 
+#footer, #footer a, #footer ul li a {color:#fff}
+#footer h1,#footer h2,#footer h3,#footer h4,#footer h4 a,#footer h5 a{color:#ffffff}
+
+
+#footer .button:hover{ background:#e0e0e0; color:#1b1b1b;}
+
+body{background-color:#ffffff}
+#page{background-color:}
+
+
+
+
+
+
+
+
+#reduction_percent,#reduction_amount {color:}
+.on_sale,.discount{background:#e62800}
+.new{color:#e62800}
+
+.price{color:}
+#footer{background-color:#262626}
+#footer li, #footer h4,#copyright_block {border-color:}
+
+.sf-menu li li a{color:}
+.sf-menu li a,.selectnav{color:}
+
+
+.ajax_add_to_cart_button{background-color:#e62800; 
+transition:background 0.5s;
+-moz-transition:background 0.5s; /* Firefox 4 */
+-webkit-transition:background 0.5s; /* Safari and Chrome */
+-o-transition:background 0.5s; /* Opera */
+}
+
+.ajax_add_to_cart_button:hover{background-color:; }
+
+.addtocart,.button,.button_mini,.button_small,.button_large,.exclusive_large{color:}
+.addtocart,.cartpic, .button,.button_mini,.button_small,.button_large,.exclusive_large{background-color:#e62800;
+transition:background 0.5s;
+-moz-transition:background 0.5s; /* Firefox 4 */
+-webkit-transition:background 0.5s; /* Safari and Chrome */
+-o-transition:background 0.5s; /* Opera */
+
+
+
+}
+.addtocart:hover,cartpic:hover,.button:hover,.button_mini:hover,.button_small:hover,.button_large:hover,.exclusive:hover,.exclusive_large:hover{
+background-color:; 
+}
+
+.ajax_add_to_cart_button_disable{color:}
+.ajax_add_to_cart_button_disable{background-color: 
+transition:background 0.5s;
+-moz-transition:background 0.5s; /* Firefox 4 */
+-webkit-transition:background 0.5s; /* Safari and Chrome */
+-o-transition:background 0.5s; /* Opera */
+}
+
+.ajax_add_to_cart_button_disable:hover{background-color:}
+.idTabs .selected {background-color:}
+.idTabs a {color:}
+#view_scroll_right,#view_scroll_left {background-color:}
+ div.tags_block p a:hover{color:#ffffff;}
+
+ #add_to_cart .ajax_add_to_cart_button,
+ #add_to_cart .addtocart{background-color:none; background:url(../../themes/reviver/img/cart_icon2.png) no-repeat 0px 8px;}
+
+ 
+
+ 
+ 
+
+
+			
