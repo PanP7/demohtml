@@ -11,11 +11,10 @@
         }
         .a-nav
         {
-            background-color: #22D6F9;            
+            background-color: #009cf5;            
             box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
             text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
             padding:5px 0;
-            border-bottom:2px #18C9EC solid;
             color:#FFFFFF;
         }
         .b-nav
@@ -120,7 +119,7 @@
             background: none repeat scroll 0 0 #FFFFFF;
             border-radius: 5px 5px 5px 5px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-            z-index: 10;
+            z-index: 10;                      
             /*padding:20px;*/
         }
         
@@ -132,7 +131,7 @@
             padding-bottom: 30px;
             padding-top: 40px;
             background: url(images/intro_texture.png) center no-repeat;
-            background-color:#E6F6FA;
+            background-color:#009cf5;
         }
         .nav-tabs li
         {
@@ -273,4 +272,27 @@
 {
     background-color:#D9EDF7;
     border:1px solid #BCE8F1;
+}
+.col-h-1
+{
+    height:80px;
+    padding:20px 15px;
+}
+.nav > li >a
+{
+    color:#FFFFFF;
+}
+#headernav > li >a:hover
+{
+    background-color:#41B7F5;
+    border-radius:15px;
+}
+.thumbnail .caption-bg
+{
+    border-top: 1px solid #E3DEDB;
+}
+
+#myTab a
+{
+    color:#555555;
 }

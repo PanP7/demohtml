@@ -35,7 +35,7 @@
                     $("#onerow").append("<div class='col-sm-6 col-md-3'><div class='thumbnail' id='thumbnail" + i + "'></div></div>");
                     $("#thumbnail" + i).append("<a href='detail.html' onclick='pagedatail("+v.Id+")'><img src='" + v.Images[0].url + "' style='width:100%;height:100%'/></a>");
                     $("#thumbnail" + i).append("<div class='caption'><h4><a href='#'>" + v.Description + "</a></h4><div class='yuanjiaoprice'><p><span class='marketPrice'>" + v.marketPrice + "</span><br><span class='retailPrice'>" + v.Price + "</span></p></div></div>");
-                    $("#thumbnail" + i).append("<div class='caption'><div class='row'><span class='threespan'><strong>积分：" + v.Integral + "</strong></span><span class='threespan'><a href='detail.html' style='margin-left:35px'><span class='shop_icon2'></span><span style='float:left;margin-left:10px'>立即购买</span></a></span></div></div>");
+                    $("#thumbnail" + i).append("<div class='caption caption-bg'><div class='row'><span class='threespan'><strong>积分：" + v.Integral + "</strong></span><span class='threespan'><a href='detail.html' style='margin-left:35px'><span class='shop_icon2'></span><span style='float:left;margin-left:10px'>立即购买</span></a></span></div></div>");
                 });
             }
         }
@@ -45,22 +45,40 @@
     </script>
 </head>
 <body>
-    <header class="a-nav navbar-fixed-top" role="banner">
-        <div class="container">
-            <div class="col-md-8" style="padding-top:5px">
-                <button class="btn btn-large btn-danger" data-toggle="modal" data-target="#LogonModel">
+    <header class="a-nav navbar-fixed-top">
+        <div class="container" style="max-height:80px;border-bottom:1px solid #FFFFFF">
+            <div class="col-md-2"><img src="http://www.ezagoo.com//images/newindex/images/header_logo.jpg" style="width:120px;height:72px"/></div>
+            <div class="col-md-4 col-h-1">
+                <ul class="nav navbar-nav" id="headernav">
+                    <li class="active"><a href="#">主页</a></li>
+                </ul>
+                
+            </div>   
+            <div class="col-md-3 col-h-1">
+                <div class="input-group">                          
+                    <input type="text" class="form-control"  placeholder="输入产品名称或者类型">
+                    <div class="input-group-btn">
+                    <button class="btn btn-danger glyphicon glyphicon-search" tabindex="-1" type="button">
+                    </button>
+                    </div>
+                </div><br />
+            </div>
+            <div class="col-md-3 col-h-1 header-left">
+                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#LogonModel">
                     <i class="glyphicon glyphicon-user"></i>
                     登录
                 </button>
-            </div>   
-            <div class="col-md-4 header-left">
-                <span><a href="#">我的订单</a></span>
-                <span><a href="#">我的收藏</a></span>
+                <a class="btn btn-info btn-lg" href="cart.html">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        ￥0.00                        
+                    </a>
+                <!--<span><a href="#">我的订单</a></span>
+                <span><a href="#">我的收藏</a></span>-->
             </div>           
         </div>
         
     </header>
-    <header class="b-nav">
+    <header class="b-nav" style="display:none">
         <div class="container">
             <div class="col-md-12">
                 <div class="col-md-5"><img src="http://www.ezagoo.com//images/newindex/images/header_logo.jpg"/></div>
@@ -113,13 +131,14 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-    <div id="content" class="bs-header">
+    <div id="content" class="bs-header" style="display:none">
         <div class="container">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">主页</a></li>
             </ul>
         </div>
     </div>
+    <div style="height:80px">&nbsp</div>
     <div class="container">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -130,10 +149,10 @@
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
-            <div class="item active" style="height:350px">
+            <div class="item active" style="height:450px">
               <img src="http://img.ezagoo.com/poster/201310250536402661.jpg" style="width:100%;height:100%"/>
             </div>
-            <div class="item" style="height:350px">
+            <div class="item" style="height:450px">
               <img src="http://cloth.ezagoo.com/movie.jpg" style="width:100%;height:100%"/>
             </div>
           </div>
@@ -168,7 +187,7 @@
                             <div class="col-sm-6 col-md-3">
                                 <div class="thumbnail">    
                                     <a href="#">
-                                        <img class="lazy" style="width:100%;height:150px" data-src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg" src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg">
+                                        <img class="lazy" style="width:100%;height:100%" data-src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg" src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg">
                                     </a>
                                     <div class="caption">
                                         <h4 style="height:40px;overflow:hidden;">
@@ -184,7 +203,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="caption">
+                                    <div class="caption caption-bg">
                                         <div class="row">
                                             <span style="float:left;margin-left:20px;line-height:25px"><strong>积分：300</strong></span>
                                             <span style="float:left;margin-left:20px;line-height:25px"><a style="margin-left:35px" href="#"><span class="shop_icon2"></span><span style="float:left;margin-left:10px">购买</span> </a></span>
@@ -195,7 +214,7 @@
                             <div class="col-sm-6 col-md-3">
                                 <div class="thumbnail">    
                                     <a href="#">
-                                        <img class="lazy" style="width:100%;height:150px" data-src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg" src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg">
+                                        <img class="lazy" style="width:100%;height:100%" data-src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg" src="http://113.247.222.77:5222/2013/09/17/EZG201309170302081279/list/20130917150658.jpg">
                                     </a>
                                     <div class="caption">
                                         <h4 style="height:40px;overflow:hidden;">
@@ -211,7 +230,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="caption">
+                                    <div class="caption caption-bg">
                                         <div class="row">
                                             <span style="float:left;margin-left:20px;line-height:25px"><strong>积分：300</strong></span>
                                             <span style="float:left;margin-left:20px;line-height:25px"><a style="margin-left:35px" href="#"><span class="shop_icon2"></span><span style="float:left;margin-left:10px">购买</span> </a></span>
