@@ -1,0 +1,93 @@
+a { color: #2997ab;}
+.colored {color: #2997ab !important;}
+.top_line {background-color: #2997ab !important;}
+.page_head .menu .current-menu-item {background: #2997ab !important ;}
+.page_head .menu ul li:hover a { background:#2997ab }
+.page_head .menu ul li:hover:first-child > a:after { border-bottom-color:#2997ab ;}
+.page_head .menu ul ul li:hover:first-child > a:after { border-right-color: #2997ab ;}
+.page_head .menu ul ul a:hover { background:#2997ab !important }
+.blog_item .view a.info:hover {background-color:#2997ab;}
+.blog_item .view a.link:hover {background-color:#2997ab;}
+.pride_pg .current {background-color: #2997ab;}
+.pride_pg a:hover  {background-color: #2997ab;}
+.blog_sidebar a{ color:#2997ab;}
+.filter_button:hover {background-color:#2997ab;border-color:#2997ab }
+.filter_current { background-color:#2997ab; border-color:#2997ab;}
+.portfolio_item .view a.info:hover {background-color:#2997ab;}
+.portfolio_item .view a.link:hover {background-color:#2997ab;}
+.descr a { color: #2997ab;}
+.portfolio_sidebar a{ color:#2997ab;}
+.blog_item .meta a:hover { color:#2997ab;}
+.blog_post_item_description .meta a:hover { color:#2997ab;}
+.portfolio_post_item_description .meta a:hover { color:#2997ab;}
+.page_sidebar a{ color:#2997ab;}
+
+.blog_head h3 a:hover {color:#2997ab;}
+.well a { color:#333;}
+.well a:hover { color:#2997ab;}
+.twitter-block .well a { color:#fff;}
+
+
+ul.social-links li a{background: #2997ab !important ;}
+ul.social-links li a:hover{background-color: #12B4BB !important ;}
+.current_page_parent a {color:#2997ab !important;} 
+.page_head .menu ul li:hover a {background: none!important; }
+.page_head .menu .current-menu-parent a:hover {color:#2997ab !important;} 
+.page_head .menu .color a:hover  {color:#2997ab !important;}
+.read a {color:#2997ab !important;}
+.sb-light-skin .hovercover {background:#2997ab !important;}
+.love-it-wrapper a:hover, .comments-likes a:hover {color:#2997ab !important;}
+.twitter_fot {background:#2997ab !important; }
+.twitter_fot .tweet_list li {color: #fff !important;}
+.twitter_fot .paginat a i {color: #12B4BB !important ;}
+.twitter_fot .paginat a i:hover {color: #41E8FF !important ;}
+.tag_cloud a:hover {background: #2997ab !important; border-color: #2997ab !important;}
+.widget_flickr img:hover {border: 2px solid #2997ab !important;}
+.tp-caption.gw_big_green{background-color:#2997ab!important; }
+.tp-caption.gw_medium_green {background-color:#2997ab!important;}
+.subpage_block {color: #2997ab!important;}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus,input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus,
+.uneditable-input:focus {
+border-color: #2997ab !important;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #2997ab !important;
+-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #2997ab !important;
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #2997ab !important;  }
+
+.selected {background-color: #2997ab !important; border-color: #2997ab !important;}
+.filter:hover, .filter.selected {background-color: #2997ab !important; border-color: #2997ab !important;}
+
+.sub-menu-short li  a:hover{text-decoration: underline;}
+#dif   a{color: #2997ab !important ;font-size: 12px;}
+#dif   a:hover{text-decoration: underline;}
+.accordion-heading a:hover{color: #2997ab !important;}
+.active_1 { background-color: #2997ab !important; }
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {background-color: #2997ab !important; }
+.nav-tabs li a:hover {color: #2997ab !important;}
+.nav-tabs a {color: #2997ab !important;}
+.active a{ color:#555555 !important}
+.meta h2 a:hover {color: #2997ab !important;}
+.pride_pg .current {background-color: #2997ab !important}
+.pride_pg a:hover  {background-color: #2997ab !important;}
+.categories li a:hover {color: #2997ab !important;}
+ul.social-links-sec-third li a:hover {color: #2997ab !important;}
+.comment-reply-link {color: #2997ab !important; text-decoration: none }
+.comment-reply-link:hover {text-decoration: underline;}
+.colorend {color: #2997ab !important; text-decoration: none}
+.colorend:hover {text-decoration: underline;}
+#slides a:hover {color: #2997ab !important;}
+
+.box {border-left: 3px solid #2997ab !important;}
+.sb-light-skin .detailholder	{border-bottom: 1px solid #2997ab !important;}
+.plus {color: #2997ab !important;}
+
+.accordion-heading-multi a:hover { color: #2997ab !important;}
+.plan.featured .price{color:#2997ab!important;}
+.plan.featured h3{color:#2997ab!important;}
+.tab-content p a  {color:#2997ab!important;}
+
+.accordion-heading i {color: #2997ab !important;}
+.accordion-heading-multi i {color: #2997ab !important;}
+.tool_a {color: #2997ab !important;}
