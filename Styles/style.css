@@ -287,7 +287,10 @@
 }
 .nav > li >a
 {
-    color:#FFFFFF;
+    color:#FFFFFF;    
+}
+#headernav > li >a
+{
     border-radius:15px;
     background-color:#15B880;
 }
