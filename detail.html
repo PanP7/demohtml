@@ -45,7 +45,9 @@
         
     <script>
         $(document).ready(function () {
-            $("#cartAmount").html("￥" + getCookie("cartAmount")); 
+            if (getCookie("cartAmount") != null && getCookie("cartAmount") != "") {
+                $("#cartAmount").html("￥" + getCookie("cartAmount"));
+            }
             $("#addcartbtn").click(function () {
 
                 notyMsg("topRight", "<h5 style='font-size:16px'><span style='padding:10px' class='btn-info glyphicon glyphicon-ok badge'>.</span> 您添加了一件新物品在购物车!</h5><div class='row'><p class='col-md-8'>" + $(".bluetext").html() + "</p><span class='btn btn-danger col-md-4' style='padding-left:10px;padding-right:10px'>￥" + $("#proprice").html() + "</span></div>", "alert");
@@ -57,7 +59,7 @@
                 } else {
                     setCookie("cartAmount", parseInt($("#proprice").html()))
                 }
-                $("#cartAmount").html("￥"+getCookie("cartAmount"));
+                $("#cartAmount").html("￥" + getCookie("cartAmount"));
 
                 //购物车产品以及数量,统计、操作 
                 if (getCookie("cartlist")) {
