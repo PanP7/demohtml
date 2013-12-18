@@ -11,11 +11,18 @@
         }
         .a-nav
         {
-            background-color: #F12B63;            
+            /*background-color: #F12B63;            
             box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
             text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
             padding:5px 0;
-            color:#FFFFFF;
+            color:#FFFFFF;*/
+            background-color: #F9F9F9;
+            border-top: 4px solid #15B880;
+            box-shadow: 0 0 8px #BCBCBC;
+            height: auto;
+            margin-bottom: 20px;
+            position: relative;
+            width: 100%;
         }
         .b-nav
         {
@@ -125,13 +132,13 @@
         
         .bs-footer
         {
-            border-top: 1px solid #F12B63;
+            border-top: 1px solid #00763E;
             color: #777777;
             margin-top: 100px;
             padding-bottom: 30px;
             padding-top: 40px;
             background: url(images/intro_texture.png) center no-repeat;
-            background-color:#F12B63;
+            background-color:#15B880;
         }
         .nav-tabs li
         {
@@ -281,6 +288,8 @@
 .nav > li >a
 {
     color:#FFFFFF;
+    border-radius:15px;
+    background-color:#15B880;
 }
 #headernav > li >a:hover
 {
