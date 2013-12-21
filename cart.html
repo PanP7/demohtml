@@ -35,6 +35,9 @@
         
     <script>
         $(document).ready(function () {
+            if (getCookie("cartAmount") != null) {
+                $("#cartAmount").html("￥" + getCookie("cartAmount"));
+            }
             CreateCartList();
         });
         function CreateCartList() {

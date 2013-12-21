@@ -27,6 +27,9 @@
     <script src="Scripts/helper.dateset.js" type="text/javascript"></script>
     <script>
         $(document).ready(function () {
+            if (getCookie("cartAmount") != null) {
+                $("#cartAmount").html("￥" + getCookie("cartAmount"));
+            }
             CreateOnerow()
         })
         function CreateOnerow() {
